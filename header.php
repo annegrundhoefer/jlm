@@ -3,7 +3,7 @@
 		<title>
 			JLM Graphic Design
 		</title>
-		<link href="images/favicon.ico" rel="shortcut icon">
+		<link href="images/oval.png" rel="shortcut icon">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/flexboxgrid/6.3.0/flexboxgrid.min.css" type="text/css">
 		<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" type="text/css">
 		<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
