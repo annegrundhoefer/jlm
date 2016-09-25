@@ -1,0 +1,728 @@
+@font-face {
+  font-family: 'Geogrotesque';
+  src: url('../fonts/geogtq-rg-webfont.eot');
+  src: url('../fonts/geogtq-rg-webfont?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/geogtq-rg-webfont.woff') format('woff'), /* Pretty Modern Browsers */ url('../fonts/geogtq-rg-webfont.ttf') format('truetype'), /* Safari, Android, iOS */ url('../fonts/geogtq-rg-webfont.svg#geogrotesque_rgregular') format('svg');
+  
+  /* IE9 Compat Modes */
+  /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Geogrotesque Medium';
+  src: url('../fonts/geogtq-md-webfont.eot');
+  src: url('../fonts/geogtq-md-webfont?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/geogtq-md-webfont.woff') format('woff'), /* Pretty Modern Browsers */ url('../fonts/geogtq-md-webfont.ttf') format('truetype'), /* Safari, Android, iOS */ url('../fonts/geogtq-md-webfont.svg#geogrotesque_mdmedium') format('svg');
+  
+  /* IE9 Compat Modes */
+  /* Legacy iOS */
+}
+/*	Variables	*/
+/*  Large screens  */
+@media all and (min-width: 2560px) {
+  html body #footer .line {
+    padding-right: 125px;
+  }
+}
+/*	Mac average  */
+/*  Windows Average  */
+@media all and (min-width: 1024px) and (max-width: 1279px) {
+  html body section .row {
+    padding: 0px 15px;
+  }
+  html body .show--mobile {
+    display: block !important;
+  }
+  html body .hide--mobile {
+    display: none;
+  }
+  html body .header img {
+    width: 130%;
+  }
+  html body .header .menu {
+    overflow: hidden;
+  }
+  html body .header .menu h2 {
+    margin: 0px 0px;
+  }
+  html body .header .menu ul {
+    display: none;
+    margin: 0px;
+  }
+  html body .header .menu ul li {
+    background: #262729;
+    color: #fff;
+    display: block;
+    float: none;
+    font-size: 24px;
+    padding: 25px 0px;
+  }
+  html body .header .menu ul li:hover {
+    color: #262729;
+  }
+  html body .header .menu ul li a {
+    color: #fff;
+    font-size: 20px;
+    padding: 15px 0px;
+  }
+  html body .header .menu-toggle {
+    cursor: pointer;
+    display: inline-block;
+    color: #fff;
+    z-index: 9999;
+    overflow: hidden;
+  }
+  html body .sub-menu {
+    padding: 25vh 0;
+    text-align: center;
+    height: 100vh;
+    background: #262729;
+    opacity: .9;
+    overflow: hidden;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    position: fixed;
+    width: 100%;
+    max-width: 100%;
+    margin: 0px 0px;
+    z-index: 9;
+    box-sizing: border-box;
+  }
+  html body .masthead svg.slant {
+    display: none;
+  }
+  html body .masthead h3 {
+    margin: 0px;
+  }
+  html body .masthead a {
+    margin: 16px 0px 0px 0px;
+  }
+  html body .masthead .bottom {
+    position: absolute;
+    bottom: 0px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    width: 100%;
+    background: rgba(17, 67, 95, 0.9);
+  }
+  html body #newsletter form {
+    margin-bottom: 3.8em;
+  }
+  html body #newsletter form input {
+    border-right: 1px solid #27cad3;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    width: 95%;
+    margin-bottom: 20px;
+  }
+  html body #newsletter form .btn {
+    min-width: 150px;
+    margin: 0px auto;
+    float: none;
+  }
+  html body #wall ul {
+    margin-top: 0px;
+  }
+  html body #wall ul li {
+    margin: 0px 25px 30px 25px;
+  }
+  html body #wall .wall-item {
+    width: 97%;
+    margin: 1%;
+  }
+  html body .case {
+    min-height: 50vh;
+    width: 100%;
+  }
+  html body .case svg.slant {
+    display: none;
+  }
+  html body .case h3 {
+    margin: 0px;
+  }
+  html body .case h5 {
+    margin: 16px 0px 0px 0px;
+  }
+  html body .case .row {
+    position: absolute;
+    bottom: 0px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    width: 100%;
+    background: rgba(17, 67, 95, 0.9);
+  }
+  html body #footer {
+    margin-top: 5em;
+    padding: 50px 0px 30px 0px;
+  }
+  html body #footer .logo {
+    margin-bottom: 0px;
+  }
+  html body #footer .logo img {
+    width: 30%;
+  }
+  html body #footer .row {
+    padding: 0px;
+  }
+  html body #footer .office {
+    margin: 20px 0px;
+  }
+  html body #footer .line {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    border-right: 0px;
+    padding: 20px 32px;
+  }
+  html body .fmenu {
+    text-align: center;
+  }
+  html body .fmenu ul {
+    padding: 0px;
+    margin: 0px 0px 20px 0px;
+  }
+  html body .fmenu ul li {
+    padding: 10px 20px;
+  }
+}
+/*  Tablet  */
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  html body section .row {
+    padding: 0px 15px;
+  }
+  html body .show--mobile {
+    display: block;
+  }
+  html body .hamburger.is-active span.hamburger-inner {
+    background: #fff;
+  }
+  html body .hamburger.is-active span.hamburger-inner::before {
+    background: #fff;
+  }
+  html body .no--mobilepadding {
+    padding: 0px 0px !important;
+  }
+  html body .hide--mobile {
+    display: none;
+  }
+  html body .mobile--padding {
+    padding: 30px;
+  }
+  html body .mobile--marginbottom {
+    margin-bottom: 1.33em;
+  }
+  html body .header img {
+    width: 55%;
+  }
+  html body .header .menu {
+    overflow: hidden;
+  }
+  html body .header .menu h2 {
+    margin: 0px 0px;
+  }
+  html body .header .menu ul {
+    display: none;
+    margin: 0px;
+  }
+  html body .header .menu ul li {
+    background: #262729;
+    color: #fff;
+    display: block;
+    float: none;
+    font-size: 24px;
+    padding: 25px 0px;
+  }
+  html body .header .menu ul li:hover {
+    color: #262729;
+  }
+  html body .header .menu ul li a {
+    color: #fff;
+    font-size: 20px;
+    padding: 15px 0px;
+  }
+  html body .header .menu ul li.social-icon {
+    margin-right: 8px;
+  }
+  html body .header .menu ul li.social-icon a {
+    border-radius: 50%;
+    padding: 0px;
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    text-align: center;
+    line-height: 32px;
+    border: 1px solid #fff;
+  }
+  html body .header .menu ul li.social-icon a:hover {
+    background: #27cad3;
+  }
+  html body .header .menu ul li.social-icon a:hover i {
+    color: #fff;
+  }
+  html body .header .menu ul li.social-icon a i {
+    display: block;
+    margin-top: 15px;
+    color: #fff;
+  }
+  html body .header .menu ul li.social-icon:last-child {
+    margin-right: 0px;
+  }
+  html body .header .menu-toggle {
+    cursor: pointer;
+    display: inline-block;
+    color: #fff;
+    z-index: 9999;
+    overflow: hidden;
+  }
+  html body .sub-menu {
+    padding: 25vh 0;
+    text-align: center;
+    height: 100vh;
+    background: #262729;
+    opacity: .9;
+    overflow: hidden;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    position: fixed;
+    width: 100%;
+    max-width: 100%;
+    margin: 0px 0px;
+    z-index: 9;
+    box-sizing: border-box;
+  }
+  html body .masthead svg.slant {
+    display: none;
+  }
+  html body .masthead h3 {
+    margin: 0px;
+  }
+  html body .masthead a {
+    margin: 16px 0px 0px 0px;
+  }
+  html body .masthead .bottom {
+    position: absolute;
+    bottom: 0px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    width: 100%;
+    background: rgba(17, 67, 95, 0.9);
+  }
+  html body .masthead .case--text .authorimg {
+    margin-top: 15px;
+  }
+  html body .masthead .case--text h4 {
+    margin-top: 1em;
+  }
+  html body .masthead .case--text h4.author {
+    margin: 40px 0px 20px 80px;
+  }
+  html body h3.team--text {
+    margin-top: 0px;
+  }
+  html body .process.text--center {
+    text-align: center;
+  }
+  html body #newsletter form input {
+    border-right: 1px solid #27cad3;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    width: 95%;
+    margin-bottom: 20px;
+  }
+  html body #newsletter form .btn {
+    min-width: 150px;
+    margin: 0px auto;
+    float: none;
+    background: #262729;
+    color: #fff;
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+  }
+  html body #newsletter form .btn:hover {
+    background: #fff;
+    color: #27cad3;
+  }
+  html body #wall ul {
+    margin-top: 0px;
+  }
+  html body #wall ul li {
+    margin: 0px 25px 30px 25px;
+  }
+  html body #wall .wall-item {
+    width: 97%;
+    margin: 1%;
+  }
+  html body .case {
+    min-height: 50vh;
+    width: 100%;
+  }
+  html body .case svg.slant {
+    display: none;
+  }
+  html body .case h3 {
+    margin: 0px;
+  }
+  html body .case a {
+    margin: 16px 0px 0px 0px;
+  }
+  html body .case .bottom {
+    position: absolute;
+    bottom: 0px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    width: 100%;
+    right: 0;
+    background: rgba(17, 67, 95, 0.9);
+  }
+  html body #contact .office {
+    margin-top: 3em;
+  }
+  html body #caseSingle .team-height {
+    wheight: 200px;
+  }
+  html body .case--white .view--jobs {
+    margin-bottom: 0em;
+  }
+  html body #footer .footer--logo img {
+    width: 30%;
+  }
+  html body #footer .logo {
+    margin-bottom: 0px;
+  }
+  html body #footer .logo img {
+    width: 30%;
+  }
+  html body #footer .row {
+    padding: 0px;
+  }
+  html body #footer .office {
+    margin: 20px 0px;
+  }
+  html body #footer .line {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    border-right: 0px;
+    padding: 20px 32px;
+  }
+  html body .fmenu {
+    text-align: center;
+  }
+  html body .fmenu ul {
+    padding: 0px;
+    margin: 0px 0px 20px 0px;
+  }
+  html body .fmenu ul li {
+    padding: 10px 20px;
+  }
+}
+/*  Phone  */
+@media all and (max-width: 767px) {
+  html body section .row {
+    padding: 0px 15px;
+  }
+  html body .show--mobile {
+    display: block;
+  }
+  html body .hide--mobile {
+    display: none;
+  }
+  html body .hamburger.is-active span.hamburger-inner {
+    background: #fff;
+  }
+  html body .hamburger.is-active span.hamburger-inner::before {
+    background: #fff;
+  }
+  html body .hide--iphone {
+    display: none;
+  }
+  html body .hide--iphone.line {
+    display: none;
+  }
+  html body .no--mobilepadding {
+    padding: 0px 0px !important;
+  }
+  html body .mobile--marginbottom {
+    margin-bottom: 1.33em;
+  }
+  html body header {
+    display: inline-block;
+    height: auto;
+  }
+  html body .header img {
+    width: 90%;
+  }
+  html body .header .menu {
+    overflow: hidden;
+  }
+  html body .header .menu h2 {
+    margin: 0px 0px;
+  }
+  html body .header .menu ul {
+    display: none;
+    margin: 0px;
+  }
+  html body .header .menu ul li {
+    background: #262729;
+    color: #fff;
+    display: block;
+    float: none;
+    font-size: 24px;
+    padding: 25px 0px;
+  }
+  html body .header .menu ul li:hover {
+    color: #262729;
+  }
+  html body .header .menu ul li a {
+    color: #fff;
+    font-size: 20px;
+    padding: 15px 0px;
+  }
+  html body .header .menu ul li.social-icon {
+    margin-right: 8px;
+  }
+  html body .header .menu ul li.social-icon a {
+    border-radius: 50%;
+    padding: 0px;
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    text-align: center;
+    line-height: 32px;
+    border: 1px solid #fff;
+  }
+  html body .header .menu ul li.social-icon a:hover {
+    background: #27cad3;
+  }
+  html body .header .menu ul li.social-icon a:hover i {
+    color: #fff;
+  }
+  html body .header .menu ul li.social-icon a i {
+    display: block;
+    margin-top: 15px;
+    color: #fff;
+  }
+  html body .header .menu ul li.social-icon:last-child {
+    margin-right: 0px;
+  }
+  html body .header .menu-toggle {
+    cursor: pointer;
+    display: inline-block;
+    color: #fff;
+    z-index: 9999;
+    overflow: hidden;
+  }
+  html body .sub-menu {
+    padding: 25vh 0;
+    text-align: center;
+    height: 100vh;
+    background: #262729;
+    opacity: .9;
+    overflow: hidden;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    position: fixed;
+    width: 100%;
+    max-width: 100%;
+    margin: 0px 0px;
+    z-index: 9;
+    box-sizing: border-box;
+  }
+  html body .masthead svg.slant {
+    display: none;
+  }
+  html body .masthead h3 {
+    margin: 0px;
+  }
+  html body .masthead a {
+    margin: 16px 0px 0px 0px;
+  }
+  html body .masthead .bottom {
+    position: absolute;
+    bottom: 0px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    width: 100%;
+    background: rgba(17, 67, 95, 0.9);
+  }
+  html body .masthead .case--text h4 {
+    margin-top: 1em;
+  }
+  html body .masthead .case--text .authorimg {
+    margin-top: 15px;
+  }
+  html body .masthead .case--text h4 {
+    margin-top: 1em;
+  }
+  html body .masthead .case--text h4.author {
+    margin: 40px 0px 20px 80px;
+  }
+  html body #newsletter {
+    margin-bottom: 0px;
+  }
+  html body #newsletter form input {
+    border-right: 1px solid #27cad3;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    width: 95%;
+    margin-bottom: 20px;
+  }
+  html body #newsletter form .btn {
+    min-width: 150px;
+    margin: 0px auto;
+    float: none;
+    background: #262729;
+    color: #fff;
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+  }
+  html body #newsletter form .btn:hover {
+    background: #fff;
+    color: #27cad3;
+  }
+  html body .process.text--center {
+    text-align: center;
+  }
+  html body #wall ul {
+    margin-top: 0px;
+  }
+  html body #wall ul li {
+    margin: 0px 25px 30px 25px;
+  }
+  html body #wall .wall-item {
+    width: 97%;
+    margin: 1%;
+  }
+  html body .case {
+    min-height: 50vh;
+    width: 100%;
+  }
+  html body .case svg.slant {
+    display: none;
+  }
+  html body .case h3 {
+    margin: 0px;
+  }
+  html body .case a {
+    margin: 16px 0px 0px 0px;
+  }
+  html body .case .bottom {
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    width: 100%;
+    background: rgba(17, 67, 95, 0.9);
+  }
+  html body #careers ul li {
+    height: auto;
+  }
+  html body #careers ul li .job--title {
+    height: auto;
+    float: none;
+    margin: 0px auto;
+    width: 100%;
+    text-align: center;
+  }
+  html body #careers ul li .job--title .position {
+    top: 0;
+  }
+  html body #careers ul li .job--department {
+    width: 100%;
+    text-align: center;
+    float: none;
+    margin: 10px auto;
+  }
+  html body #careers ul li .job--department .department {
+    top: 0;
+  }
+  html body #careers ul li .job--location {
+    width: 100%;
+    text-align: center;
+    float: none;
+    bottom: 0;
+  }
+  html body #careers ul li .job--location .location {
+    margin-right: 0px;
+    top: 0;
+  }
+  html body #careers ul li .job--location .smaller {
+    display: block;
+    margin: 30px 20px;
+    background: #262729;
+    color: #fff;
+  }
+  html body #contact .office {
+    margin-top: 3em;
+  }
+  html body #contact .line {
+    border-top: 0px;
+  }
+  html body .case--white .view--jobs {
+    margin-bottom: 0em;
+  }
+  html body #footer .footer--logo img {
+    width: 50%;
+  }
+  html body #footer .logo {
+    margin-bottom: 0px;
+  }
+  html body #footer .logo img {
+    width: 50%;
+  }
+  html body #footer .row {
+    padding: 0px;
+  }
+  html body #footer .office {
+    margin-bottom: 0px;
+  }
+  html body #footer .line {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    border-right: 0px;
+    padding: 20px 32px;
+  }
+  html body #footer .mobile--line {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    border-right: 0px;
+    padding: 20px 32px;
+    display: inline-block;
+  }
+  html body #footer .footer--padding {
+    padding-top: 20px;
+  }
+  html body .fmenu {
+    text-align: center;
+  }
+  html body .fmenu ul {
+    padding: 0px;
+    margin: 0px 0px 20px 0px;
+  }
+  html body .fmenu ul li {
+    padding: 10px 20px;
+  }
+  html body .mobile--padding {
+    padding: 30px;
+  }
+  html body .statement h4 {
+    margin: 2em 0 2em 0;
+  }
+  html body p.phase {
+    margin-top: 20px;
+    line-height: 32px;
+  }
+  html body .process--orange {
+    position: relative;
+  }
+  html body .process--orange::after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 100%;
+    width: 100%;
+    background: #262729;
+    opacity: .8;
+  }
+  html body .process--orange .item {
+    height: auto;
+  }
+}
