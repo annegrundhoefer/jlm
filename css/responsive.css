@@ -70,7 +70,7 @@
     overflow: hidden;
   }
   html body .sub-menu {
-    padding: 25vh 0;
+    padding: 12vh 0;
     text-align: center;
     height: 100vh;
     background: #262729;
@@ -207,6 +207,9 @@
   html body .mobile--marginbottom {
     margin-bottom: 1.33em;
   }
+  html body .header {
+    height: 55px;
+  }
   html body .header img {
     width: 55%;
   }
@@ -271,7 +274,7 @@
     overflow: hidden;
   }
   html body .sub-menu {
-    padding: 25vh 0;
+    padding: 12vh 0;
     text-align: center;
     height: 100vh;
     background: #262729;
@@ -308,7 +311,7 @@
     margin-top: 15px;
   }
   html body .masthead .case--text h4 {
-    margin-top: 1em;
+    margin-top: 0em;
   }
   html body .masthead .case--text h4.author {
     margin: 40px 0px 20px 80px;
@@ -422,6 +425,15 @@
   html body .hide--mobile {
     display: none;
   }
+  html body .full-height {
+    min-height: 50vh;
+  }
+  html body .threeFourths-height {
+    min-height: 55vh;
+  }
+  html body .row__full-height.noHeight {
+    min-height: 50vh;
+  }
   html body .hamburger.is-active span.hamburger-inner {
     background: #fff;
   }
@@ -442,10 +454,10 @@
   }
   html body header {
     display: inline-block;
-    height: auto;
+    height: 55px;
   }
   html body .header img {
-    width: 90%;
+    width: 120%;
   }
   html body .header .menu {
     overflow: hidden;
@@ -508,7 +520,7 @@
     overflow: hidden;
   }
   html body .sub-menu {
-    padding: 25vh 0;
+    padding: 12vh 0;
     text-align: center;
     height: 100vh;
     background: #262729;
@@ -542,7 +554,7 @@
     background: rgba(17, 67, 95, 0.9);
   }
   html body .masthead .case--text h4 {
-    margin-top: 1em;
+    margin-top: 0em;
   }
   html body .masthead .case--text .authorimg {
     margin-top: 15px;
@@ -658,8 +670,14 @@
   html body .case--white .view--jobs {
     margin-bottom: 0em;
   }
+  html body #footer .links ul {
+    margin: 1em;
+  }
+  html body #footer .links ul li {
+    padding: 10px 22px;
+  }
   html body #footer .footer--logo img {
-    width: 50%;
+    width: 60%;
   }
   html body #footer .logo {
     margin-bottom: 0px;

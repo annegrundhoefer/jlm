@@ -7,6 +7,7 @@
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/flexboxgrid/6.3.0/flexboxgrid.min.css" type="text/css">
 		<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" type="text/css">
 		<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
 		<link rel="stylesheet" href="css/styles.css" type="text/css">
 		<link rel="stylesheet" href="css/responsive.css" type="text/css">
 		<link rel="stylesheet" href="css/hamburgers.min.css" type="text/css">
@@ -28,7 +29,7 @@
 							</div>
 							<!-- End logo -->
 
-							<div class="col-xs-6 col-md-10 end-xs col-lg-10 end-lg menu">
+							<div class="col-xs-6 col-md-10 col-lg-10 end-xs end-md end-lg menu">
 
 								<!-- Menu toggle -->
 								<button class="hamburger hamburger--collapse menu-toggle show--mobile" id="menuToggle" type="button" aria-label="Menu" aria-controls="navigation">
@@ -41,9 +42,10 @@
 								<ul class="sub-menu hide--mobile">
 									<li><a href="index.php">Portfolio</a></li>
 									<li><a href="contact.php">About & Contact</a></li>
-									<li class="social-icon"><a href="https://www.facebook.com/projekt202" target="_blank"><i class="ion-social-facebook"></i></a></li>
-									<li class="social-icon"><a href="https://twitter.com/projekt202" target="_blank"><i class="ion-social-twitter"></i></a></li>
-									<li class="social-icon"><a href="https://www.instagram.com/projekt202" target="_blank"><i class="ion-social-instagram"></i></a></li>
+									<li class="social-icon"><a href="https://www.facebook.com/JlmGraphicDesign/?fref=ts" target="_blank"><i class="ion-social-facebook"></i></a></li>
+									<li class="social-icon"><a href="https://twitter.com/jmcbrayer" target="_blank"><i class="ion-social-twitter"></i></a></li>
+									<li class="social-icon"><a href="https://www.instagram.com/jlmgraphicdesign/" target="_blank"><i class="ion-social-instagram"></i></a></li>
+									<li class="social-icon"><a href="https://www.linkedin.com/in/jennifermcbrayer" target="_blank"><i class="ion-social-linkedin"></i></a></li>
 								</ul>
 								<!-- End menu -->
 							</div>

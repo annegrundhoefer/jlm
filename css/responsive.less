@@ -135,7 +135,7 @@
 				}
 			}
 			.sub-menu {
-				padding: 25vh 0;
+				padding: 12vh 0;
 				text-align: center;
 				height: 100vh;
 				background: @primary;
@@ -294,6 +294,7 @@
 				margin-bottom: 1.33em;
 			}
 			.header {
+				height: 55px;
 				img {
 					width: 55%;
 				}
@@ -359,7 +360,7 @@
 				}
 			}
 			.sub-menu {
-				padding: 25vh 0;
+				padding: 12vh 0;
 				text-align: center;
 				height: 100vh;
 				background: @primary;
@@ -398,7 +399,7 @@
 						margin-top: 15px;
 					}
 					h4 {
-						margin-top: 1em;
+						margin-top: 0em;
 					}
 					h4.author {
 						margin: 40px 0px 20px 80px;
@@ -541,6 +542,17 @@
 			.hide--mobile {
 				display: none;
 			}
+			.full-height {
+				min-height: 50vh;
+			}
+			.threeFourths-height {
+				min-height: 55vh;
+			}
+			.row__full-height {
+				&.noHeight {
+					min-height: 50vh;
+				}
+			}
 			.hamburger {
 				&.is-active {
 					span {
@@ -567,11 +579,11 @@
 			}
 			header {
 				display: inline-block;
-				height: auto;
+				height: 55px;
 			}
 			.header {
 				img {
-					width: 90%;
+					width: 120%;
 				}
 				.menu {
 					overflow: hidden;
@@ -635,7 +647,7 @@
 				}
 			}
 			.sub-menu {
-				padding: 25vh 0;
+				padding: 12vh 0;
 				text-align: center;
 				height: 100vh;
 				background: @primary;
@@ -671,7 +683,7 @@
 				}
 				.case--text {
 					h4 {
-						margin-top: 1em;
+						margin-top: 0em;
 					}
 					.authorimg {
 						margin-top: 15px;
@@ -804,9 +816,17 @@
 				}
 			}
 			#footer {
+				.links {
+					ul {
+						margin: 1em;
+						li {
+							padding: 10px 22px;
+						}
+					}
+				}
 				.footer--logo {
 					img {
-						width: 50%;
+						width: 60%;
 					}
 				}
 				.logo {

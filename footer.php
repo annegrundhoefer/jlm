@@ -1,15 +1,15 @@
 <!-- Footer -->
 <section id="footer">
 	<div class="row center-md center-xs">
-		<div class="col-xs-12 col-md-12 footer--logo">
+		<div class="col-xs-10 col-md-12 footer--logo">
 			<a href="index.php">
 				<img src="images/logo.png">
 			</a>
-			<h4>graphics • web • branding • illustration • photography</h4>
+			<h4>Print Collateral • Digital • PowerPoint Presentations • Infographics • Iconography</h4>
 		</div>
 	</div>
 	<div class="row center-md center-xs">
-		<div class="col-xs-9 col-md-4 links">
+		<div class="col-xs-10 col-md-4 links">
 			<div class="divider"></div>
 			<ul>
 				<li><a href="index.php">Portfolio</a></li>
@@ -19,11 +19,12 @@
 		</div>
 	</div>
 	<div class="row center-md center-xs">
-		<div class="col-xs-9 col-md-4 footer--social">
+		<div class="col-xs-10 col-md-4 footer--social">
 			<ul>
-				<li class="social-icon"><a href="https://www.facebook.com/projekt202" target="_blank"><i class="ion-social-facebook"></i></a></li>
-				<li class="social-icon"><a href="https://twitter.com/projekt202" target="_blank"><i class="ion-social-twitter"></i></a></li>
-				<li class="social-icon"><a href="https://www.instagram.com/projekt202" target="_blank"><i class="ion-social-instagram"></i></a></li>
+				<li class="social-icon"><a href="https://www.facebook.com/JlmGraphicDesign/?fref=ts" target="_blank"><i class="ion-social-facebook"></i></a></li>
+				<li class="social-icon"><a href="https://twitter.com/jmcbrayer" target="_blank"><i class="ion-social-twitter"></i></a></li>
+				<li class="social-icon"><a href="https://www.instagram.com/jlmgraphicdesign/" target="_blank"><i class="ion-social-instagram"></i></a></li>
+				<li class="social-icon"><a href="https://www.linkedin.com/in/jennifermcbrayer" target="_blank"><i class="ion-social-linkedin"></i></a></li>
 			</ul>
 		</div>
 	</div>
