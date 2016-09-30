@@ -5,7 +5,7 @@
 			<a href="index.php">
 				<img src="images/logo.png">
 			</a>
-			<h4>Print Collateral • Digital • PowerPoint Presentations • Infographics • Iconography</h4>
+			<h4>Corporate Branding • Print Collateral • Digital • PowerPoint Presentations • Infographics • Iconography</h4>
 		</div>
 	</div>
 	<div class="row center-md center-xs">

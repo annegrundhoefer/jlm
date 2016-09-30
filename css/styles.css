@@ -90,6 +90,9 @@ html body .row.row__half-height {
 html body .row.row__threeFourths-height {
   min-height: 60vh;
 }
+html body .img--large {
+  padding: 25vh 0px;
+}
 html body .show--mobile {
   display: none;
 }
@@ -132,6 +135,9 @@ html body .overlay.overlay--fixed {
 }
 .tile {
   margin: 30px auto;
+}
+.half-height {
+  min-height: 50vh;
 }
 .full-height {
   min-height: 100vh;

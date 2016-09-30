@@ -40,7 +40,7 @@
 					</a>
 				</div>
 				<div class="col-md-4 col-sm-6 col-xs-12">
-					<a href="case-study-single.php">
+					<a href="case-study-single-template.php">
 						<div class="image-container" style="background: url('./images/wireframing1.jpg') no-repeat center center; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover;">
 							<div class="overlay-orange">
 								<div class="arrow-left"></div>
