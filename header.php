@@ -11,6 +11,7 @@
 		<link rel="stylesheet" href="css/styles.css" type="text/css">
 		<link rel="stylesheet" href="css/responsive.css" type="text/css">
 		<link rel="stylesheet" href="css/hamburgers.min.css" type="text/css">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 	</head>
 	<body>
 
